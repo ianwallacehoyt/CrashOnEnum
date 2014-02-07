@@ -28,12 +28,16 @@ android {
 
 repositories {
     mavenCentral()
+
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
 }
 
 dependencies {
 
     testCompile 'junit:junit:4.10'
-    testCompile 'org.robolectric:robolectric:2.1.+'
+    testCompile 'org.robolectric:robolectric:2.3-SNAPSHOT'
     testCompile 'com.squareup:fest-android:1.0.+'
     testCompile 'com.google.android:android:4.1.1.4'
     testCompile 'org.mockito:mockito-all:1.9.5'
