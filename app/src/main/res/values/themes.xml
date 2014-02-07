@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeImpl" parent="@android:style/Theme.NoTitleBar">
+        <item name="MyTextViewStyle">@style/MyTextViewStyle</item>
+        <item name="defaultAttrEnum">@integer/defaultAttrEnumValue</item>
+    </style>
+</resources>

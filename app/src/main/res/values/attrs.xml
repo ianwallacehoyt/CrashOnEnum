@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="attrEnum"/>
+    </declare-styleable>
+
+    <!-- ==================================
+    BEGIN THEME ATTRIBUTES
+    ================================== -->
+    <attr name="MyTextViewStyle" format="reference"/>
+    <attr name="defaultAttrEnum" format="reference"/>
+    <!-- ==================================
+    END THEME ATTRIBUTES
+    ================================== -->
+
+    <attr name="attrEnum">
+        <enum name="One" value="1"/>
+        <enum name="Two" value="2" />
+    </attr>
+</resources>

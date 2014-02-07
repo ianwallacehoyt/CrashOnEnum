@@ -1,0 +1,18 @@
+# osx desktop file
+.DS_Store
+
+# IntelliJ config files
+.idea/
+*.iml
+
+# gradle config folders
+.gradle/
+
+#gradle build folders
+build/
+
+# vim swap files
+*.swp
+
+# Required by AI-129.737825 to build properly
+local.properties
